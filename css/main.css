@@ -1,0 +1,91 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia;
+  line-height: 1.5;
+  color: #2f2d13;
+  text-align: left;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #ffe500;
+  margin: 0;
+  padding: 0 0 .2em;
+}
+
+h1 {
+  font-family: "Sigmar One", cursive;
+  font-size: 3rem;
+  color: #b20953;
+  text-align: center;
+  margin: 0;
+  padding: .05em;
+  padding-top: 0;
+}
+
+h2 {
+  font-family: "Sigmar One", cursive;
+  font-size: 1.875rem;
+  color: #b20953;
+  margin: .3em 0;
+  padding: 0;
+  margin-top: .2em;
+}
+
+footer {
+  font-size: .75rem;
+  background-color: #ffe500;
+  text-align: center;
+  padding: 10px;
+}
+
+.cards a {
+  text-decoration: none;
+  color: #fff;
+  background: #b2a212;
+  border-radius: 4px;
+  margin-bottom: .3em;
+  padding: .2em .5em .3em;
+  display: inline-block;
+}
+
+.cards li {
+  display: inline;
+}
+
+a.highlight {
+  background: #b20953;
+}
+
+.cards a:hover {
+  background-color: #cc1465;
+}
+
+nav {
+  text-align: center;
+  padding: .3em;
+  font-size: 1.125rem;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  padding: .7em;
+  margin-top: .8em;
+}
+
+img {
+  width: 100%;
+  display: block;
+  padding-top: .7em;
+}
